@@ -1,15 +1,14 @@
 #include <iostream>
 
 using namespace std;
-int cong(int a, int b)
+
+int tong(int a, int b)
 {
     return a + b;
 }
-
 int main()
 {
-    int a =8;
-    int b =6;
-    cong(a,b);
+    int a =9; int b =10;
+    cout << tong(a,b);
     return 0;
 }
